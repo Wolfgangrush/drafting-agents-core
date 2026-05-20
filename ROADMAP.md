@@ -17,9 +17,33 @@
 ## v0.3+ (when demand signal lands)
 Unlock trigger: real downstream user (not the maintainer) requests local-LLM support, OR the maintainer's Sunday review endorses it as priority.
 
-- Multi-LLM adapter: OpenAI · paid Gemini · Ollama (local Llama 3.3 70B / Qwen 2.5 72B) · BYOM for in-firm LLMs
+- Multi-LLM adapter: OpenAI · paid Gemini · **DeepSeek V4 Pro** · Ollama (local Llama 3.3 70B / Qwen 2.5 72B) · BYOM for in-firm LLMs
 - True air-gap mode — no API calls, no telemetry, no network egress
 - Model-agnostic skill execution layer
 
 ## Honest note on timelines
 Solo-author OSS. Ships as time permits. Targets are indicative, not committed dates. Open an issue if a specific feature on a specific timeline matters to your work.
+
+---
+
+## 🌐 Family Status (honest · cross-firm)
+
+The Wolfgang Rush AI Law Firm family ships across 7 jurisdictions. Honest status of the v0.2 legal-knowledge layer (statute corpus + drafting data) per firm:
+
+| Firm | _statute_corpus | _drafting_data | drafting-agents-core | GitHub |
+|------|---|---|---|---|
+| 🇮🇳 **India** | RSH-native knowledge (no Gemini corpus) | Wolfgang_rush plugins (14 Indian-litigation plugins, separate stack) | Not applicable — Indian-specific | ✅ LIVE |
+| 🇪🇺 **EU** | ✅ 11 statutes · 8/8 Tier-1 | ✅ 26 templates · 9/9 Tier-1 | ✅ Path B-Lite | ✅ LIVE |
+| 🇦🇺 **Australia** | ✅ done | ✅ done | ✅ Path B-Lite | ✅ LIVE |
+| 🇦🇪 **Dubai-DIFC** | ✅ done | ✅ done | ✅ Path B-Lite | ✅ LIVE |
+| 🇸🇬 **Singapore** | ✅ done | ✅ done | ✅ Path B-Lite | ✅ LIVE |
+| 🇬🇧 **UK** | ❌ pending (queued for Gemini overnight) | ❌ pending (queued for Gemini overnight) | ✅ Path B-Lite | ✅ LIVE (firm code) |
+| 🇺🇸 **USA** | ❌ pending (queued for Gemini overnight) | ❌ pending (queued for Gemini overnight) | ✅ Path B-Lite | ✅ LIVE (firm code) |
+
+**Plus:**
+- **AI Startup Firm — India v0.1** (legal-ops brain for founders)
+- **GC In-House Brain** (multi-jurisdictional, 8 modules — 3 live · 5 shipping v0.2+)
+
+Both share the same `drafting-agents-core` architecture pattern.
+
+All firms migrated to this central agent library on 2026-05-20 (Path B-Lite) — single source of truth for the agent layer; jurisdictional knowledge stays per-firm.

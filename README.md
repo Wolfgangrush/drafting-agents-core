@@ -44,7 +44,7 @@ Agents use `{{JURISDICTION_*}}` placeholders that each firm resolves via its `~/
 
 ## Roadmap
 
-See [ROADMAP.md](ROADMAP.md). v0.1 = Claude Code native. v0.3+ = multi-LLM adapter (OpenAI · paid Gemini · Ollama for local Llama 3.3 70B / Qwen 2.5 72B · BYOM for in-firm LLMs) when demand signal lands.
+See [ROADMAP.md](ROADMAP.md). v0.1 = Claude Code native. v0.3+ = multi-LLM adapter (OpenAI · paid Gemini · **DeepSeek V4 Pro** · Ollama for local Llama 3.3 70B / Qwen 2.5 72B · BYOM for in-firm LLMs) when demand signal lands.
 
 ## License
 
