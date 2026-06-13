@@ -10,11 +10,11 @@
   No other jurisdiction-specific tokens in this skill.
 -->
 
-Connects to the Wolfgang_rush drafting plugins (separate, MIT, optional). v0.1 = connection layer. v0.2+ = real templates per jurisdiction.
+Connects to the wolfgang_rush drafting plugins (separate, MIT, optional). v0.1 = connection layer. v0.2+ = real templates per jurisdiction.
 
 ## Plugin Connection
 
-The Drafting Assistant interfaces with Wolfgang_rush drafting plugins. Plugins are installed separately and are jurisdiction-specific. This agent provides the connection layer — it routes drafting requests to the appropriate plugin and returns results.
+The Drafting Assistant interfaces with wolfgang_rush drafting plugins. Plugins are installed separately and are jurisdiction-specific. This agent provides the connection layer — it routes drafting requests to the appropriate plugin and returns results.
 
 ## Operations (v0.1)
 

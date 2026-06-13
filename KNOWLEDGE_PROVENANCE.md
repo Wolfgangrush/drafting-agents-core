@@ -19,7 +19,7 @@ One section per agent — what jurisdiction sources back the agent's logic and w
 - **Generalized:** Court hierarchy is `{{JURISDICTION_COURT_HIERARCHY}}` — JSON map per jurisdiction
 
 ## Drafting Assistant
-- **Source:** Wolfgang_rush plugin family connection patterns
+- **Source:** wolfgang_rush plugin family connection patterns
 - **Generalized:** Plugin connection is jurisdiction-agnostic; template formats use `{{JURISDICTION_*}}`
 
 ## Compliance Officer

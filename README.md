@@ -1,8 +1,8 @@
-# Drafting Agents Core — shared agent library for the Wolfgang Rush AI Law Firm family
+# Drafting Agents Core — shared agent library for the wolfgang_rush AI Law Firm family
 
 **v0.1.0 · Claude Code native · MIT licensed · 2026**
 
-Shared Claude Code skill library used by all foreign Wolfgang Rush AI Law Firms (UK · EU · Singapore · Australia · Dubai-DIFC · USA). Each firm imports these agents via local clone + `config.toml`. India AI Law Firm uses its own Wolfgang_rush plugin architecture and is out of scope for this repo.
+Shared Claude Code skill library used by all foreign wolfgang_rush AI Law Firms (UK · EU · Singapore · Australia · Dubai-DIFC · USA). Each firm imports these agents via local clone + `config.toml`. India AI Law Firm uses its own wolfgang_rush plugin architecture and is out of scope for this repo.
 
 ## What's inside
 
@@ -12,7 +12,7 @@ Shared Claude Code skill library used by all foreign Wolfgang Rush AI Law Firms 
 | 2 | Matter Manager | Holds active matters — parties, prayers, hearings, orders, draft state |
 | 3 | Citation Clerk | Parses jurisdiction-specific citations · 2-source verification |
 | 4 | Court Registrar | Knows the court hierarchy for the configured jurisdiction |
-| 5 | Drafting Assistant | Connects to Wolfgang_rush drafting plugins (separate, MIT, optional) |
+| 5 | Drafting Assistant | Connects to wolfgang_rush drafting plugins (separate, MIT, optional) |
 | 6 | Compliance Officer | Bar-rule firewall · advertising/solicitation risk · data-protection flags |
 | 7 | Risk Assessor | 3×3 risk matrix — auto-classifies every session by application, use, technology |
 | 8 | Audit Clerk | Always-on AI audit log · 90-day retention · ICS export · never transmitted |
@@ -48,8 +48,8 @@ See [ROADMAP.md](ROADMAP.md). v0.1 = Claude Code native. v0.3+ = multi-LLM adapt
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Copyright Wolfgang Rush, 2026.
+MIT — see [LICENSE](LICENSE). Copyright wolfgang_rush, 2026.
 
 ## Maintainer
 
-[Wolfgang Rush](https://github.com/Wolfgangrush) — publisher. 2026.
+[wolfgang_rush](https://github.com/Wolfgangrush) — publisher. 2026.

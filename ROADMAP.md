@@ -6,7 +6,7 @@
 - Shared Python utilities: compliance_firewall, audit_logger, leak_check, pseudonymisation interface
 - jurisdiction_loader: per-firm config resolver (~50 LOC Python)
 - Used by 6 foreign AI Law Firms (UK · EU · Singapore · Australia · Dubai-DIFC · USA)
-- India firm out of scope (uses Wolfgang_rush plugin architecture)
+- India firm out of scope (uses wolfgang_rush plugin architecture)
 
 ## v0.2 (next 1–2 months)
 - Jurisdictional-corpus loader stabilized
@@ -28,11 +28,11 @@ Solo-author OSS. Ships as time permits. Targets are indicative, not committed da
 
 ## 🌐 Family Status (honest · cross-firm)
 
-The Wolfgang Rush AI Law Firm family ships across 7 jurisdictions. Honest status of the v0.2 legal-knowledge layer (statute corpus + drafting data) per firm:
+The wolfgang_rush AI Law Firm family ships across 7 jurisdictions. Honest status of the v0.2 legal-knowledge layer (statute corpus + drafting data) per firm:
 
 | Firm | Statute corpus | Drafting corpus | Shared agents | GitHub |
 |------|---|---|---|---|
-| 🇮🇳 **India** | Native knowledge base · maintainer-curated | Wolfgang_rush plugins (14 Indian-litigation plugins · separate stack) | Not applicable — Indian-specific | ✅ LIVE |
+| 🇮🇳 **India** | Native knowledge base · maintainer-curated | wolfgang_rush plugins (14 Indian-litigation plugins · separate stack) | Not applicable — Indian-specific | ✅ LIVE |
 | 🇪🇺 **EU** | ✅ 11 statutes · 8/8 Tier-1 | ✅ 26 templates · 9/9 Tier-1 | ✅ Migrated | ✅ LIVE |
 | 🇦🇺 **Australia** | ✅ Complete | ✅ Complete | ✅ Migrated | ✅ LIVE |
 | 🇦🇪 **Dubai-DIFC** | ✅ Complete | ✅ Complete | ✅ Migrated | ✅ LIVE |
