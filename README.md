@@ -15,6 +15,23 @@ Visit the live site: [wolfgangrush.github.io](https://wolfgangrush.github.io)
 </p>
 
 
+<div align="center">
+
+<img src="docs/banner.png" width="820"/>
+
+**Shared Claude Code agents powering the wolfgang_rush AI Law Firm across six jurisdictions.**
+
+Visit the live site: [wolfgangrush.github.io](https://wolfgangrush.github.io)
+
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-agent%20library-8A2BE2" alt="Claude Code agent library"/>
+  <img src="https://img.shields.io/badge/jurisdictions-UK%20%C2%B7%20EU%20%C2%B7%20SG%20%C2%B7%20AU%20%C2%B7%20DIFC%20%C2%B7%20USA-blue" alt="Jurisdictions"/>
+</p>
+
+
 # Drafting Agents Core — shared agent library for the wolfgang_rush AI Law Firm family
 
 **v0.1.0 · Claude Code native · MIT licensed · 2026**
