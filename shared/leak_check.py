@@ -27,7 +27,7 @@ class LeakCheck:
     # Patterns that must never appear in any output destined for GitHub or APIs
     FORBIDDEN_PATTERNS: list[tuple[str, str]] = [
         # Palace / internal paths
-        ("PALACE_PATH", r"~?/?(\.mempalace|Desktop/mempalace)"),
+        ("PALACE_PATH", r"~?/?(\.localstore|Desktop/localstore)"),
         ("CLAUDE_PROJECTS", r"~/\.claude/projects"),
         # AAAK personal code leak (word-boundary match)
         (
