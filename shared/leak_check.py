@@ -8,7 +8,7 @@ Usage:
     from shared.leak_check import LeakCheck
 
     lc = LeakCheck()
-    hits = lc.scan("some text that might contain ~/Desktop/mempalace/...")
+    hits = lc.scan("some text that might contain ~/Desktop/localstore/...")
     if hits:
         raise LeakError(f"Leak detected: {hits}")
 """
